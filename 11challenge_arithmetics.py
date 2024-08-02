@@ -1,5 +1,5 @@
 """
-For this challenge, you are going to practice performing arithmetic operations 
+For this challenge, we are going to practice performing arithmetic operations 
 in Python. Two variables have been provided for you to perform operations on, 
 and you should put the result in the variable named `result` to be printed to 
 the console. 
