@@ -33,6 +33,7 @@
 ## Removing Elements
 # my_list.clear()  # result empty list []
 # print(my_list)
+
 ## 6/35 List change order of element
 # animals = ["dog", "cat", "cow", "horse", "duck", "goat", "chicken"]
 # print(animals)
@@ -47,3 +48,12 @@
 # result = sorted(animals, key=len, reverse=True) # sorted by long-short with true
 # result = sorted("Hello , World!")  # This is not perfect function to sort
 # print(result)
+
+## 6/37 Lists: Multiple Dimensional
+matrix = [
+    [1, 2, 3],
+    [4, [1, 2, [1, 2, 3], 3], 6],
+    [7, 8, 9],
+]  # List inside a nested list
+# print(matrix[2][0])
+print(matrix[1][1][2][0])
