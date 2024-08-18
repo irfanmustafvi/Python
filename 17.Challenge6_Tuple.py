@@ -5,7 +5,7 @@ succeed, always use correct indexing.
 # First Tuple containing elements with these data types to work with
 tuple1 = ("hello", 50, 3.14, False)
 # Here is second tuple by slicing the second and third element from the first tuple
-tuple2 = tuple1[1:4]
+tuple2 = tuple1[1:3]
 # Here is third tuple by concatenating the first and second tuple.
 tuple3 = tuple1 + tuple2
 # Output of three tuples
