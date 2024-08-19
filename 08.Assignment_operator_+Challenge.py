@@ -1,4 +1,4 @@
-"""For this challenge, we are going to use all the assignment operators to change 
+"""Challenge, use all the assignment operators to change 
 the value of a `number` variable, but the final result will be the same as the 
 starting number. Feel free to print `number` to the console after each 
 operation to see its value."""

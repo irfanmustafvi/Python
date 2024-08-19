@@ -1,5 +1,5 @@
 """Challenge, create two variables that take user input, one for 
-your first name and one for your last name. Then, print a greeting that outputs 
+first name and one for last name. Then, print a greeting that outputs 
 "Hello, [your first and last name]"
 """
 
