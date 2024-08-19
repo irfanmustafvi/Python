@@ -1,4 +1,4 @@
-"""In this challenge, you will create two variables that take user input, one for 
+"""Challenge, create two variables that take user input, one for 
 your first name and one for your last name. Then, print a greeting that outputs 
 "Hello, [your first and last name]"
 """
