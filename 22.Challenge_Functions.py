@@ -1,5 +1,5 @@
 """
-In this challenge, you are going to create a simple calculator! The calculator 
+In this challenge, create a simple calculator! The calculator 
 should have functions to do addition, subtraction, multiplication, and 
 division. Each function will take two integer arguments and perform the 
 operation on the integers passed into it. You will create an options menu for 
