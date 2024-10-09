@@ -1,19 +1,19 @@
 """Challenge: Create and guess the number game! The game requires importing the `random` module and generating a random integer, which has not been covered yet, so the code has been provided. Here, challenge is created the game's logic using variables, loops, and conditional statements.
 """
 
-# Import the random module to generate random numbers
+## Import the random module to generate random numbers
 import random
 
-# Generate a random number between 1 and 100
+## Generate a random number between 1 and 100
 secret_number = random.randint(1, 100)
 
-# Create a variable to hold the number of times a player guessed a number
+## Create a variable to hold the number of times a player guessed a number
 attempts = 0
 
-# Create a variable to set the maximum number of guesses before the game ends
+## Create a variable to set the maximum number of guesses before the game ends
 max_attempts = 5
 
-# Output a message that welcomes the player and tells them how to play
+## Output a message that welcomes the player and tells them how to play
 print("Welcome to the Guess the Number Game!")
 print("I'm thinking of a number between 1 and 100.")
 print("Can you guess it within", max_attempts, "attempts?")
@@ -26,7 +26,7 @@ indicating the game is over and what the number is, and the game (program) ends.
 HINT: `input()` always returns a string, but you will be comparing numeric 
 values."""
 
-# Execute the code in the loop while `attempts` is less than `max_attempts`
+## Execute the code in the loop while `attempts` is less than `max_attempts`
 while attempts < max_attempts:  # Output the player's remaining number of attempts
     print("\nAttempts remaining:", max_attempts - attempts)
 
